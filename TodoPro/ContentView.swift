@@ -10,9 +10,26 @@ import Foundation
 import Combine
 
 struct ContentView: View {
+    @State private var showingSettings = false
     @StateObject private var viewModel = TodoListViewModel(store: TodoStore())
     var body: some View {
-        TodoListView(viewModel: viewModel)
+        NavigationStack {
+            TodoListView(viewModel: viewModel)
+                .navigationTitle("Todos")
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+                            showingSettings = true
+                        } label: {
+                            Image(systemName: "gearshape")
+                        }
+                        .accessibilityLabel("Settings")
+                    }
+                }
+        }
+        .sheet(isPresented: $showingSettings) {
+            SettingsView()
+        }
     }
 }
 

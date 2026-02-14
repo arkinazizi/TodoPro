@@ -29,31 +29,9 @@
 		C05C1E1D2F3DCDD5007DA26B /* TodoProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C05C1E3E2F3DD053007DA26B /* Exceptions for "TodoPro" folder in "TodoPro" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-			);
-			target = C05C1E032F3DCDD4007DA26B /* TodoPro */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		C05C1E3F2F3DD053007DA26B /* Exceptions for "TodoPro" folder in "Copy Bundle Resources" phase from "TodoPro" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = C05C1E022F3DCDD4007DA26B /* Resources */;
-			membershipExceptions = (
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C05C1E062F3DCDD4007DA26B /* TodoPro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C05C1E3E2F3DD053007DA26B /* Exceptions for "TodoPro" folder in "TodoPro" target */,
-				C05C1E3F2F3DD053007DA26B /* Exceptions for "TodoPro" folder in "Copy Bundle Resources" phase from "TodoPro" target */,
-			);
 			path = TodoPro;
 			sourceTree = "<group>";
 		};
